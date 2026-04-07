@@ -9,6 +9,5 @@ Just order the PCB for example at [JLCPCB](https://jlcpcb.com/) (any thickness, 
 The mod also necessitates permanent modifications to your MVS slot, so be careful.
 
 ![](/PCB/PCB.png)
-![](/PCB/Schematic.png)
 
 The PCB was designed to be as small as possible with some clearance around capacitors so that any voltage below 50V must fit.
