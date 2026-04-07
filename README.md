@@ -1,7 +1,7 @@
 **A tiny PCB to grab the audio signal from a 1-slot NeoGeo MVS before it enters the amplifier. Restores the stereo signal.**
 
 ## Why ?
-Because the speaker amplifier mount on MVS board is mono only and kind of scratchy / noisy. Remind it was meant to be powerfull enough on cheap speakers in a room full of people and other machines, not exactly the same conditions as in your living room.
+Because the speaker amplifier mount on MVS boards is sometimes configured in mono only and kind of scratchy / noisy even after recap. Remind it was meant to be powerfull enough on cheap speakers in a room full of people and other machines, not exactly the same conditions as in your living room.
 
 ## How ?
 Just drop the gerber for example on [JLCPCB](https://jlcpcb.com/) website (any thickness, any finish, the cheaper the better) and populate the board with a 3.5 mm audio jack plug, 4x4.7 µF capacitors (25 V) and 4x6.8 kOhms resistors. A, B and C patches refer to the well known [Jeff Kurtz mod](/Miscellaneous/MV-1FZ_Stereo_Mod.pdf) I just followed. Take the GND where you want, there are plenty of different possibilities. As this mod basically grabs the signal before amplification, it requires an additional external amplifier.
