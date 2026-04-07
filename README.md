@@ -10,4 +10,4 @@ The mod also necessitates permanent modifications to your MVS slot, so be carefu
 
 ![](/PCB/PCB.png)
 
-The PCB was designed to be as small as possible with some clearance around capacitors so that any voltage below 50V must fit.
+The PCB was designed to be as small as possible with some clearance around capacitors so that any voltage below 50 V must fit.
