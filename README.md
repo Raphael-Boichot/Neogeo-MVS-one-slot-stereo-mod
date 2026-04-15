@@ -10,4 +10,4 @@ Just drop the gerber for example on [JLCPCB](https://jlcpcb.com/) website (any t
 
 The mod also necessitates permanent modifications to your MVS slot and you will permanently lose sound from the JAMMA comb. The jack directly goes to your prefered amplifier by completely bypassing the usual cabinet / supergun sound circuit. The PCB was designed to be as small as possible with some clearance around capacitors so that any voltage below 50 V must fit.
 
-I guess as SMC version is totally possible but considering the usual clearance around a consolized MVS motherboard, who cares.
+I guess as SMD version is totally possible but considering the usual clearance around a consolized MVS motherboard, who cares. Just ask politely in case you need one.
