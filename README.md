@@ -12,9 +12,9 @@ The mod also necessitates permanent modifications to your MVS slot and you will 
 
 I guess that an SMD version is totally possible but considering the usual clearance around a consolized MVS motherboard, who cares. Just ask politely in case you need one.
 
-BUT
+BUT...
 
-## Want to try a non destructive (and easy) mod before ?
+## Do you want to try a non destructive (and easy) mod before ?
 Assuming you're using a supergun equipped with a high/low impedance adapter (and your own amplifier after), the MVS board amplifier spits signals with basically zero load (near infinite output impedance). In that case when you try to tune the sound level with the potentiometer on the MVS PCB, sound goes from noisy as shit with constant hum but stable to scratchy as shit but without hum in a fraction of tuning angle. Basically: impossible to find a good matching with your own sound amplifier.
 
 I found that just simulating a moderate load with a 50 ohms resistor **before** the high/low impedance adapter improves a lot the sound quality. The only "difficulty" is to find the soldering points on your supergun jamma comb to avoid altering the MVS board (typically pin 10 and L to ground through two 100 ohms resistors in stereo or one of them to ground with a 50 ohms resistor in mono). 50 ohms load is high enough to drain the amplifier output and small enough to avoid any kind of resistor overheating.
