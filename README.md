@@ -3,6 +3,8 @@
 ## Why ?
 Because the speaker amplifier mount on some MVS boards is configured in mono only and kind of scratchy / noisy even after recap when passing through a high/low impedance adapter (typically on a supergun), this mod allows you to extract the sound signal in stereo before any amplification.
 
+Read until the end if your problem is just about sound quality and mono is fine for you.
+
 ## How ?
 Just drop the gerber for example on [JLCPCB](https://jlcpcb.com/) website (any thickness, any finish, the cheaper the better) and populate the board with a 3.5 mm audio jack plug, 4x4.7 µF capacitors (any voltage, it's low level signals) and 4x6.8 kOhms resistors (any type). A, B and C patches refer to the well known soldering points from the [Jeff Kurtz mod](/Miscellaneous/MV-1FZ_Stereo_Mod.pdf) I just followed. Take the GND where you want, there are plenty of different possibilities. As this mod basically grabs the signal before any amplification, it requires an additional external amplifier.
 
