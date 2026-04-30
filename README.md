@@ -1,9 +1,9 @@
 **A tiny PCB to grab the audio signal from a 1-slot NeoGeo MVS before it enters the amplifier. Restores the stereo signal.**
 
 ## Why ?
-Because the speaker amplifier mount on some MVS boards is configured in mono only and kind of scratchy / noisy even after recap when passing through a high/low impedance adapter (typically on a supergun), this mod allows you to extract the sound signal in stereo before any amplification.
+Because the speaker amplifier mount on some MVS boards is configured in mono only and kind of scratchy / noisy even after recap when passing through a high/low impedance adapter (typically on a supergun), this mod allows you to extract the sound signal in stereo before any amplification and use your own sound amplification system.
 
-Read until the end if your problem is just about sound quality and mono is fine for you.
+Read until the end if your problem is just about sound quality out of a supergun and mono is just fine for you.
 
 ## How ?
 Just drop the gerber for example on [JLCPCB](https://jlcpcb.com/) website (any thickness, any finish, the cheaper the better) and populate the board with a 3.5 mm audio jack plug, 4x4.7 µF capacitors (any voltage, it's low level signals) and 4x6.8 kOhms resistors (any type). A, B and C patches refer to the well known soldering points from the [Jeff Kurtz mod](/Miscellaneous/MV-1FZ_Stereo_Mod.pdf) I just followed. Take the GND where you want, there are plenty of different possibilities. As this mod basically grabs the signal before any amplification, it requires an additional external amplifier.
@@ -14,7 +14,7 @@ The mod also necessitates permanent modifications to your MVS slot and you will 
 
 I guess that an SMD version is totally possible but considering the usual clearance around a consolized MVS motherboard, who cares. Just ask politely in case you need one.
 
-BUT...
+**BUT...**
 
 ## Do you want to try a non destructive (and easy) mod before ?
 Assuming you're using a supergun equipped with a high/low impedance adapter (and your own amplifier after), the MVS board amplifier spits signals with basically zero load (near infinite output impedance). In that case when you try to tune the sound level with the potentiometer on the MVS PCB, sound goes from noisy as shit with constant hum but stable to scratchy as shit but without hum in a fraction of tuning angle. Basically: impossible to find a good matching with your own sound amplifier.
