@@ -24,3 +24,6 @@ In short, you need a dummy load.
 I found that just simulating a moderate load with a 50 ohms resistor **before** the high/low impedance adapter improves a lot the sound quality. The only "difficulty" is to identify the soldering points on your supergun jamma comb to avoid altering the MVS board (typically pin 10 and L to ground through two 100 ohms resistors in stereo or one of them to ground with a 50 ohms resistor in mono). 50 ohms load is high enough to drain the amplifier output and small enough to avoid any kind of resistor overheating. Other values are probably possible, I took in my case 2x100 ohms (1W) in parallel simply because I had them in my drawers. Also 2x100 ohms is high enough resistance to let the mod in place in case you switch to real low impedance arcade speakers.
 
 This of course does not suppress all the sound artifacts of some Chinese bootlegs and other 1XX-in-1 cartridges (they are unfixable), but at least makes the sound output more enjoyable (I guess close enough to a genuine arcade cabinet) and the tuning from the onboard potentiometer is now possible on the whole scale. 
+
+![](/My_setup_for_dummy_load.jpg)
+My particular setup for dummy load: 2x100 Ohms direct to JAMMA comb on a SmallCab Supergun Deluxe 2. Note that sound must go through the RCA connector, the jack plug bypasses the electrical connectors on this supergun.
