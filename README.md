@@ -26,4 +26,4 @@ I found that just simulating a moderate load with an about 25 ohms resistor **be
 This of course does not suppress all the sound artifacts of some Chinese bootlegs and other 1XX-in-1 cartridges (they are unfixable), but at least makes the sound output more enjoyable (I guess close enough to a genuine arcade cabinet) and the tuning from the onboard potentiometer is now possible on the whole scale. 
 
 ![](/My_setup_for_dummy_load.jpg)
-My particular setup for dummy load: 2x47 Ohms direct connected to the JAMMA comb on a SmallCab Supergun Deluxe 2 (in parallel here). Note that sound must go through the RCA connectors because the jack plug bypasses the electrical connectors on this supergun.
+My particular setup for dummy load: 2x47 Ohms direct connected to the JAMMA comb on a SmallCab Supergun Deluxe 2 (in parallel here, mono). Note that sound must go through the RCA connectors because the jack plug bypasses the electrical connectors on this supergun.
