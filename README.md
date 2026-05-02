@@ -17,7 +17,7 @@ I guess that an SMD version is totally possible but considering the usual cleara
 **BUT...**
 
 ## Do you want to try a non destructive (and easy) mod before ?
-Assuming you're using a supergun equipped with a high/low impedance adapter (and your own amplifier after), the MVS board amplifier spits signals with basically zero load (near infinite output impedance). In that case when you try to tune the sound level with the potentiometer on the MVS PCB, sound goes from noisy as shit with constant hum but stable, to scratchy / saturated as shit but without hum, in a fraction of tuning angle. Basically: impossible to find a good matching with any further sound amplifier.
+Assuming you're using a supergun equipped with a high/low impedance adapter (and your own amplifier after), the MVS board amplifier spits signals with basically zero load (near infinite output impedance). In that case when you try to tune the sound level with the potentiometer on the MVS PCB, sound goes from noisy as shit with constant hum but stable, to scratchy / saturated as shit but without hum, in a fraction of turning angle. Basically: impossible to find a good matching with any further sound amplifier.
 
 In short, you need a dummy load.
 
@@ -26,4 +26,4 @@ I found that just simulating a moderate load with an about 25 ohms resistor **be
 This of course does not suppress all the sound artifacts of some Chinese bootlegs and other 1XX-in-1 cartridges (they are unfixable), but at least makes the sound output more enjoyable (I guess close enough to a genuine arcade cabinet) and the tuning from the onboard potentiometer is now possible on the whole scale. 
 
 ![](/My_setup_for_dummy_load.jpg)
-My particular setup for dummy load: 2x47 Ohms direct connected to the JAMMA comb on a SmallCab Supergun Deluxe 2. Note that sound must go through the RCA connectors because the jack plug cuts the electrical connectors on this supergun.
+My particular setup for dummy load: 2x47 Ohms direct connected to the JAMMA comb on a SmallCab Supergun Deluxe 2. Note that sound must go through the RCA connectors because the jack plug bypasses the electrical connectors on this supergun.
