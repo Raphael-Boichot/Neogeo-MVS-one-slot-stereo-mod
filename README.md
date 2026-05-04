@@ -21,10 +21,10 @@ If you are using an SNK MVS board with a Supergun equipped with a high/low imped
 
 **The Fix is just a dummy Load.**
 
-To stabilize the signal, you simply need to simulate a moderate load before the high/low adapter. I found that adding approximately 25 Ohm of resistance significantly cleans up the output and restores linear control to the volume pot. I used for example 2x47 Ohm (1W) resistors wired in parallel (totaling  approx. 23.5 Ohms) because I had them in my drawers. This value is high enough to prevent the resistors from overheating, yet low enough to "drain" the amp output effectively.
+To stabilize the signal, you simply need to simulate a moderate load before the high/low adapter. I found that adding approximately 25 Ohm of resistance significantly cleans up the output and restores linear control to the volume pot. I used for example 2x47 Ohms (1W) resistors wired in parallel (totaling  approx. 23.5 Ohms) because I had them in my drawers. This value is high enough to prevent the resistors from overheating, yet low enough to "drain" the amp output effectively.
 
 Connect the resistors to the JAMMA comb between the audio pins (Pin 10 and/or Pin L) and ground. While this won't fix the low-quality audio hardware found on Chinese "1XX-in-1" bootlegs, it makes genuine boards sound better. The audio is much closer to the original arcade cabinet experience, and the onboard volume slider / potentiometer finally works across its entire range without clipping or distortion. This resistance is high enough that you can leave the mod in place even if you eventually switch back to a real low-impedance arcade speaker setup.
 
 ![](/My_setup_for_dummy_load.jpg)
 
-Example of a dummy load on a SmallCab Supergun Deluxe 2. Note that you must use the RCA outputs for audio; the jack plug bypasses the specific pins used for this load. Be sure to cross-reference your own supergun schematic before replicating this.
+Example of a dummy load (2x47 Ohms in parallel, mono configuration) on a SmallCab Supergun Deluxe 2. Note that you must use the RCA outputs for audio; the jack plug bypasses the specific pins used for this load. Be sure to cross-reference your own supergun schematic before replicating this.
