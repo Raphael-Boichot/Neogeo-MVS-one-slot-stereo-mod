@@ -1,4 +1,4 @@
-**A tiny PCB to grab the audio signal from a 1-slot NeoGeo MVS before it enters the amplifier. Restores the stereo signal.**
+**A tiny PCB to grab the audio signal from a 1-slot Neo Geo MVS before it enters the amplifier. Restores the stereo signal.**
 
 ## Why ?
 Because the speaker amplifier mount on some MVS boards is configured in mono only and kind of scratchy / noisy even after recap when passing through a high/low impedance adapter (typically on a supergun), this mod allows you to extract the sound signal in stereo before any amplification and use your own sound amplification system.
